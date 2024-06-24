@@ -51,7 +51,7 @@
 }
 
 .sec_description {
-  margin: 60px 0;
+  margin: 80px 0;
 }
 
 .sec_description .content {
@@ -65,4 +65,77 @@
 
 .sec_description .content p {
   font-size: 16px;
+}
+
+form {
+  border-top: 1px solid #DDDDDD;
+  border-bottom: 1px solid #DDDDDD;
+  padding: 30px 0;
+}
+
+.content_box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px
+}
+
+.content_left {
+  display: flex;
+  align-items: center;
+}
+
+.info {
+  margin: 0 20px;
+}
+
+.required {
+  background-color: #FF6699;
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.content_right {
+  width: 70%;
+}
+
+input {
+  border: 1px solid #DDDDDD;
+  width: 100%;
+  padding: 10px;
+}
+
+select {
+  border: 1px solid #DDDDDD;
+  width: 400px;
+  padding: 10px;
+  color: #DDDDDD;
+}
+
+textarea {
+  border: 1px solid #DDDDDD;
+  width: 100%;
+  padding: 10px;
+}
+
+.content_right_02 {
+  display: flex;
+  width: 70%;
+}
+
+.privacy_policy {
+  display: flex;
+  align-items: center;
+}
+
+input[type=checkbox] {
+  width: 15px;
+}
+
+.privacy_policy a {
+  margin: 0 5px;
+  color: green;
+  border-bottom: 1px solid green;
+  padding-bottom: 3px;
 }
