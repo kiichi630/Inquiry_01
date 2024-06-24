@@ -70,7 +70,7 @@
 form {
   border-top: 1px solid #DDDDDD;
   border-bottom: 1px solid #DDDDDD;
-  padding: 30px 0;
+  padding: 30px 0 0 0;
 }
 
 .content_box {
@@ -78,6 +78,13 @@ form {
   justify-content: space-between;
   margin-bottom: 60px
 }
+
+.content_box_02 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px
+}
+
 
 .content_left {
   display: flex;
@@ -139,3 +146,18 @@ input[type=checkbox] {
   border-bottom: 1px solid green;
   padding-bottom: 3px;
 }
+
+.sec_confirmation {
+  margin: 80px 0;
+}
+
+.confirmation_btn {
+  text-align: center;
+}
+
+.confirmation_btn a {
+  background-color: green;
+  color: #ffffff;
+  padding: 20px 120px;
+}
+
